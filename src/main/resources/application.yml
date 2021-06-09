@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/tenantdb
+    username: admin
+    password: admin
+    type: com.zaxxer.hikari.HikariDataSource
+  flyway:
+    enabled: false
+    locations:
+      - classpath:db/migration/
+    baseline-version: 0
+    baseline-on-migrate: true
+
+tenants:
+  names: TENANT1, TENANT2, TENANT3

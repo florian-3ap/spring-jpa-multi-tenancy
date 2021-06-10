@@ -36,13 +36,6 @@
       <scope>runtime</scope>
     </dependency>
 
-    <!-- JWT Utils -->
-    <dependency>
-      <groupId>com.nimbusds</groupId>
-      <artifactId>nimbus-jose-jwt</artifactId>
-    </dependency>
-
-    <!-- Flyway -->
     <dependency>
       <groupId>org.flywaydb</groupId>
       <artifactId>flyway-core</artifactId>
